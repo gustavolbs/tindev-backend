@@ -20,7 +20,7 @@ module.exports = {
 
     await loggedDev.save()
 
-    console.log(`User ${loggedDev.user} liked ${targetDev}`
+    console.log(`User ${loggedDev.user} liked ${targetDev}`)
     return res.json(loggedDev)
   }
 }
